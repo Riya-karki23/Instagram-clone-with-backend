@@ -82,7 +82,7 @@ else{
         <a className="text-xs text-blue-900 mt-4 cursor-pointer -mb-4">Forgot password?</a>
     </div>
     <div className="bg-white border border-gray-300 text-center w-80 py-4">
-        <span className="text-sm">Don't have an account?</span>
+        <span className="text-sm text-black">Don't have an account?</span>
         <Link to='/signup' className="text-blue-500 text-sm font-semibold">Sign up</Link>
     </div>
     <div className="mt-3 text-center">

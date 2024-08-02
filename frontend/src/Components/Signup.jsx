@@ -19,7 +19,7 @@ async function handleSubmit(e){
             email,
             password
         });
-        navigate('/home');
+        navigate('/login');
         console.log(name,email,password);
     } 
     catch(e){
@@ -34,13 +34,13 @@ async function handleSubmit(e){
         <h1 className="bg-no-repeat instagram-logo"></h1>
         <form className="mt-8 w-64 flex flex-col" onSubmit={handleSubmit}>
             <input autofocus
-                   className="text-xs w-full mb-2 rounded border bg-gray-100 border-gray-300 px-2 py-2 focus:outline-none focus:border-gray-400 active:outline-none"
+                   className="text-xs w-full mb-2 rounded border bg-gray-100 text-black border-gray-300 px-2 py-2 focus:outline-none focus:border-gray-400 active:outline-none"
                    id="email" placeholder="Enter Username" type="text" name="name" value={name} onChange={(e)=>setName(e.target.value)}/>
             <input autofocus
-                   className="text-xs w-full mb-2 rounded border bg-gray-100 border-gray-300 px-2 py-2 focus:outline-none focus:border-gray-400 active:outline-none"
+                   className="text-xs w-full mb-2 rounded border bg-gray-100 text-black border-gray-300 px-2 py-2 focus:outline-none focus:border-gray-400 active:outline-none"
                    id="email" placeholder="Enter email" type="text" name="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
             <input autofocus
-                   className="text-xs w-full mb-4 rounded border bg-gray-100 border-gray-300 px-2 py-2 focus:outline-none focus:border-gray-400 active:outline-none"
+                   className="text-xs w-full mb-4 rounded border text-black bg-gray-100 border-gray-300 px-2 py-2 focus:outline-none focus:border-gray-400 active:outline-none"
                    id="password" placeholder="Password" type="password" name="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
             <button type="submit" className="text-sm text-center bg-blue-500 text-white py-1 rounded font-medium">
                 Signup
@@ -58,7 +58,7 @@ async function handleSubmit(e){
         <a className="text-xs text-blue-900 mt-4 cursor-pointer -mb-4">Forgot password?</a>
     </div>
     <div className="bg-white border border-gray-300 text-center w-80 py-4">
-        <span className="text-sm">Don't have an account?</span>
+        <span className="text-sm text-black">Don't have an account?</span>
         <Link to='/login' className="text-blue-500 text-sm font-semibold">Login</Link>
     </div>
     <div className="mt-3 text-center">

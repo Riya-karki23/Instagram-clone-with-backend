@@ -8,7 +8,6 @@ function Home() {
   <div className=' flex flex-col'>
   
   <SideNav/>
-  <Story/>
  <Posts/>
    </div>
 

@@ -146,10 +146,11 @@ public user: BelongsTo<typeof User>
  4. followsuggestion create.
  5. footer.
  6. home styling and latest created post at top. --
- 7. login text styling.
- 8. signup text and set user data after signup
+ 7. login text styling. --
+ 8. signup text and set user data after signup --
  9. profile create dynamic profile pic for all users, username also added in table column
  10. search styling.
- 11. story dynamic and scroll css.
- 12. proper folder structure.
- 13. image uploads using desktop / drag and drop
+ 11. story dynamic and scroll css. --
+ 12. proper folder structure. --
+ 13. image uploads using desktop / drag and drop.
+ 14. create a profile upload and editing in the profile component.

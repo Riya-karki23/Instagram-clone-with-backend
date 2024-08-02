@@ -13,7 +13,7 @@ import { IoPaperPlaneOutline } from "react-icons/io5";
 import { FaRegBookmark } from "react-icons/fa";
 import { IoMdBookmark } from "react-icons/io";
 import { HiDotsVertical } from "react-icons/hi";
-
+import Story from './Story';
 
 function Posts() {
   const [posts,setPosts]=useState([]);
@@ -86,8 +86,8 @@ function toggle(){
   }
 
   return (
-    <div className=''>
-
+    <>
+<Story/>
       {posts.map((post, index) => (
         <div key={index}  className="flex justify-center ">
     {/* ----------------------------------------------------------cards------------- */}
@@ -164,7 +164,8 @@ function toggle(){
 </div>
 </div>
       ))}
-    </div>
+     
+    </>
   );
 }
 

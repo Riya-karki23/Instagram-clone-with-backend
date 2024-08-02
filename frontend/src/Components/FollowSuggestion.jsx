@@ -2,9 +2,7 @@ import React from 'react'
 
 function FollowSuggestion() {
   return (
-    <div>
-    <div className='text-white bg-red-700'>FollowSuggestion</div>
-    </div>
+    <div className='bg-red-500'>FollowSuggestion</div>
   )
 }
 
